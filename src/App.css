@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: cyan;
+  padding: 10px;
+  height: 100px;
+}
+
+.box-container {
+  width: 50%;
+  background-color: white;
+  margin: auto;
+}
+
+.selectedOption {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
+.optionsContainer div {
+  padding: 2px;
+  text-transform: capitalize;
+}
+.option {
+  text-transform: capitalize;
+}
