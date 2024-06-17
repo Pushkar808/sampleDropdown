@@ -7,6 +7,7 @@ function App() {
   const [activeDrop, setActiveDrop] = useState(false)
   return (
     <div className="App">
+      <h3>Should you use a Drop Down</h3>
       <div className='box-container'>
         <div className='selectedOption' onClick={() => setActiveDrop(!activeDrop)}>
           <div> </div>
